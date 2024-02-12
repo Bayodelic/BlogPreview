@@ -1,0 +1,103 @@
+@font-face {
+    font-family: texto;
+    src: url(/assets/fonts/Figtree-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: titulo;
+    src: url(/assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.textoFont{
+    font-family: texto;
+}
+
+.tituloFont{
+    font-family: titulo;
+}
+
+body{
+    background-color: #F5D04E;
+}
+
+
+#card{
+    border: 1px solid black;
+    border-radius: 2rem;
+    box-shadow: 1rem 1rem black;
+    width: 33%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 8%;
+    background-color: white;
+}
+
+#BlogImg{
+    width: 24rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    border-radius: 2rem;
+}
+
+button {
+    background-color: #F5D04E;
+    border: 1px solid #F5D04E;
+    border-radius: 0.5rem;
+    color: black;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    width: 7rem;
+    height: 2rem;
+    line-height: 1.6rem;
+    font-weight: bold;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+#Date{
+    display: flex;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+h1{
+    margin-left: 2rem;
+    margin-top: 1rem;
+    font-weight: bolder;
+}
+
+p{
+    margin-left: 2rem;
+    margin-top: 1rem;
+    color: #858585;
+}
+
+#profile{
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    line-height: 3.5rem;
+    font-weight: bold;
+}
+
+#ProfileImg{
+    width: 3rem;
+    padding-right: 1rem;
+    margin-left: 2rem;
+}
+
+h1:hover{
+    color: #F5D04E;
+    cursor: pointer;
+}
+
